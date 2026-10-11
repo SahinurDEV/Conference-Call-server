@@ -4,7 +4,6 @@
   "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
   "main": "src/app.js",
   "dependencies": {
-    "next": "^12.0.7",
     "express": "^4.17.3",
     "serve-favicon": "^2.5.0",
     "socket.io": "^4.6.1"
@@ -31,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/SahinurDEV/Conference-Call-server/issues"
   },
-  "homepage": "https://github.com/SahinurDEV/Conference-Call-server#readme"
+  "homepage": "https://github.com/SahinurDEV/Conference-Call-server#readme",
+  "overrides": {
+    "semver@>=7.0.0 <7.5.2": "^7.5.2"
+  }
 }
